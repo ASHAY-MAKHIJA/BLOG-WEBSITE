@@ -1,0 +1,528 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header starts*/
+header
+{
+    background-color: whitesmoke;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo
+{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: xx-large;
+}
+
+header .headerlist
+{
+    display: flex;
+    list-style-type: none;
+    padding-left: 100px;
+    margin-top: 20px;
+}
+
+header .headerlist li
+{
+    padding-right: 30px;
+}
+
+header .headerlist li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+}
+
+header .headerlist li a:hover
+{
+    border-bottom: 2px lightgray solid;
+}
+
+header .headersubscribe
+{
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+header .headersubscribe a
+{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+
+header .headersubscribe a:hover
+{
+    color: wheat;
+    border-bottom: 2px lightgray solid;
+}
+
+.headerline
+{
+    border-bottom: 2px wheat solid;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*header ends*/
+
+/*main starts*/
+main 
+{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+}
+
+main::before
+{
+    content: '';
+    background-image: url('blog3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+main .backgroundpic1
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: larger;
+    color: black;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.mainline
+{
+    border-bottom: 4px wheat solid;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*main ends*/
+
+/* section starts */
+.section
+{
+    min-height: 150vh;
+    display: flex;
+    margin-top: 5px;
+}
+
+.section .newsfeed
+{
+    
+    width: 70%;
+}
+
+.section .newsfeed .newsfeedline
+{
+    min-height: 5vh;
+}
+
+.section .newsfeed .newsfeedline h1
+{
+    margin-top: 2px;
+    margin-left: 50px;
+    border-left: 4px wheat solid;
+    padding-left: 5px;
+}
+
+
+/*section1*/
+.section .newsfeed .newsfeedsection .newsfeedsection1
+{
+    box-shadow: 5px 5px 10px #555;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 33px;
+    margin-right: 50px;
+}
+
+.section .newsfeed .newsfeedsection .newsfeedsection1 .imagesection
+{
+    margin: 10px;
+}
+
+.section .newsfeed .newsfeedsection .newsfeedsection1 .textsection
+{
+    margin-left: -80px;
+    margin-top: 10px;
+}
+
+.section .newsfeed .newsfeedsection .newsfeedsection1 .textsection .dateandmore
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.section .newsfeed .newsfeedsection .newsfeedsection1 .textsection .read-more
+{
+    padding-right: 30px;
+}
+
+.section .newsfeed .newsfeedsection .newsfeedsection1 .textsection .read-more a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.section .newsfeed .newsfeedsection .newsfeedsection1 .textsection .read-more a:hover
+{
+    color: blue;
+}
+
+.section .newsfeed .newsfeedsection .newsfeedsection1 .textsection .date
+{
+    color: lightcoral;
+}
+/*section1*/
+.section .impblog
+{
+    background-color: whitesmoke;
+    min-height: 150vh;
+    width: 30%;
+    margin-right: 35px;  
+}
+
+.section .impblog h1
+{
+    margin-top: 2px;
+}
+
+.section .impblog p
+{
+    margin: 20px;
+    text-align: justify;
+}
+
+.sectionline
+{
+    border-bottom: 4px wheat solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+/* section1 ends */
+
+/*section2 starts*/
+.section2 
+{
+    min-height: 140vh;
+}
+.section2 .updatename
+{
+    min-height: 5vh;
+}
+
+.section2 .updatename h1
+{
+    margin-top: 8px;
+    margin-left: 50px;
+    border-left: 4px wheat solid;
+    padding-left: 5px;
+}
+
+.section2 .updaterow1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.section2 .updaterow1 .firstblockupdate
+{
+    min-height: 50vh;
+    min-width: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.section2 .updaterow1 .firstblockupdate .updateimage
+{
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.section2 .updaterow1 .firstblockupdate .updatetext
+{
+    text-align: justify;
+    margin: 12px;
+}
+
+.section2 .updaterow1 .firstblockupdate .updatetext .datereadmore
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.section2 .updaterow1 .firstblockupdate .updatetext .datereadmore .date
+{
+    color: palevioletred;
+}
+
+.section2 .updaterow1 .firstblockupdate .updatetext .datereadmore a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.section2 .updaterow1 .firstblockupdate .updatetext .datereadmore a:hover
+{
+    color: blue;
+}
+
+.sectionline2
+{
+    border-bottom: 4px wheat solid;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+/*section2 ends*/
+
+/*section3 starts*/
+.section3 
+{
+    min-height: 140vh;
+}
+.section3 .jobsname
+{
+    min-height: 5vh;
+}
+
+.section3 .jobsname h1
+{
+    margin-top: 8px;
+    margin-left: 50px;
+    border-left: 4px wheat solid;
+    padding-left: 5px;
+}
+
+.section3 .jobrow1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.section3 .jobrow1 .firstblockjob
+{
+    min-height: 50vh;
+    min-width: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.section3 .jobrow1 .firstblockjob .jobimage
+{
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.section3 .jobrow1 .firstblockjob .jobtext
+{
+    text-align: justify;
+    padding: 12px;
+}
+
+.section3 .jobrow1 .firstblockjob .jobtext .datereadmore
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.section3 .jobrow1 .firstblockjob .jobtext .datereadmore .date
+{
+    color: palevioletred;
+}
+
+.section3 .jobrow1 .firstblockjob .jobtext .datereadmore a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.section3 .jobrow1 .firstblockjob .jobtext .datereadmore a:hover
+{
+    color: blue;
+}
+/*section3 ends*/
+
+/* footer starts */
+footer
+{
+    height: 30vh;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .detail h4
+{
+    margin-top: 20px;
+    font-size: larger;
+}
+
+footer .aboutus .socialmedia
+{
+    margin-top: 10px;
+}
+
+footer .footerlist
+{
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+footer .footerlist .navigate
+{
+    font-size: larger;
+    margin-right: 10px;
+
+}
+
+footer .flist
+{
+    margin-top: 10px;
+    list-style-type: none;
+}
+footer .flist li
+{
+    padding-top: 10px;
+}
+
+footer .flist li a
+{
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+}
+
+footer .flist li a:hover
+{
+    border-bottom: 2px lightgray solid;
+}
+
+footer .footerulist .icons
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 220px;
+}
+
+footer .footerulist .icons li
+{
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+footer .footerulist .icons li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer .footerulist .icons li a:hover
+{
+    border-bottom: 2px lightgray solid;
+}
+
+.footerline
+{
+    border-bottom: 4px wheat solid;
+    margin-left: 30px;
+    margin-right: 30px;  
+    margin-top: 10px;
+}
+
+footer .subscribe 
+{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+footer .subscribe .subscribename
+{
+    font-size: larger;
+}
+
+footer .subscribe .signup form
+{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+input
+{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+
+button
+{
+    margin: 10px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: wheat;
+    border: none;
+    color: black;
+}
+
+.footerlinetwo
+{
+    border-bottom: 2px wheat solid;
+    margin-left: 30px;
+    margin-right: 30px;  
+}
+/*footer ends*/
